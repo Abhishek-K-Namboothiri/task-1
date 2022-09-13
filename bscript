@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Number of files:"
+ls -l | grep ^- | wc -l
+
+echo "Number of directories:"
+ls -l | grep ^d | wc -l
